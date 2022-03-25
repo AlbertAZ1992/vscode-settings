@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "lokalise.i18n-ally",
+    "StreetSideSoftware.CodeSpellChecker",
+    "SergiiNaumov.ColorHighlight",
+    "Alexander.ErrorLens",
+    "Microsoft.Eslint",
+    "GitKraken.GitLens",
+    "Lokalise.i18nAlly",
+    "richie5um2.SortJsonObject",
+    "MhammedTalhaouy.Icons",
+    "Svelte.SvelteForVscode",
+    "HardikPithva.WebComponentShippets",
+    "voorjaar.WindicssIntellisense"
+  ]
+}
