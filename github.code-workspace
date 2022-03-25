@@ -1,0 +1,156 @@
+/* cspell:disable */
+{
+	"folders": [
+		{
+			"path": "vscode-settings"
+		},
+		{
+			"path": "eslint-config"
+		},
+		{
+			"path": "my-css"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"lokalise.i18n-ally",
+			"StreetSideSoftware.CodeSpellChecker",
+			"SergiiNaumov.ColorHighlight",
+			"Alexander.ErrorLens",
+			"Microsoft.Eslint",
+			"GitKraken.GitLens",
+			"Lokalise.i18nAlly",
+			"richie5um2.SortJsonObject",
+			"MhammedTalhaouy.Icons",
+			"Svelte.SvelteForVscode",
+			"HardikPithva.WebComponentShippets",
+			"voorjaar.WindicssIntellisense",
+		]
+	},
+	"settings": {
+		"editor.fontSize": 16,
+		"editor.fontFamily": "Input Mono, Monaco, 'Courier New', monospace",
+		// https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets
+		"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+		"editor.tabSize": 2,
+		// "editor.renderWhitespace": "boundary",
+		"editor.cursorWidth": 8,
+		"files.exclude": {
+			"**/.DS_Store": true,
+		},"editor.bracketPairColorization.enabled": true,		"editor.codeLensFontFamily": "Fira Code",
+		"editor.columnSelection": false,
+		"editor.foldingImportsByDefault": true,
+		"editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToImplementation",
+		"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.peekDeclaration",
+		"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinitionAside",
+		"editor.definitionLinkOpensInPeek": true,
+		"editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToReferences",
+		"editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.goToTypeDefinition",
+		"editor.gotoLocation.multipleImplementations": "gotoAndPeek",
+		"editor.gotoLocation.multipleReferences": "gotoAndPeek",
+		"editor.linkedEditing": true,
+		"editor.cursorSmoothCaretAnimation": true,
+		"editor.glyphMargin": false,
+		"editor.find.addExtraSpaceOnTop": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"explorer.confirmDelete": false,
+		"workbench.fontAliasing": "antialiased",
+		"workbench.editor.autoLockGroups": {},
+		"workbench.editor.closeOnFileDelete": true,
+		"workbench.editor.highlightModifiedTabs": true,
+		"workbench.startupEditor": "newUntitledFile",
+		"workbench.list.smoothScrolling": true,
+		"editor.smoothScrolling": true,
+		"extensions.ignoreRecommendations": true,
+		"search.exclude": {
+			"**/.git": true,
+			"**/.github": true,
+			"**/.vscode": true,
+			"**/.pnpm": true,
+			"**/.yarn": true,
+			"**/.sff": true,
+			"**/.tmp": true,
+			"**/yarn.lock": true,
+			"**/pnpm-lock.yaml": true,
+			"**/package-lock.json": true,
+			"**/build/**": true,
+			"**/dist/**": true,
+			"**/target/**": true,
+			"**/logs": true,
+			"**/node_modules": true,
+		},
+		"terminal.integrated.cursorStyle": "line",
+		// Emmet Config
+		"emmet.showSuggestionsAsSnippets": true,
+		// Error Lens Config
+		"errorLens.enabledDiagnosticLevels": [
+			"warning",
+			"error"
+		],
+		"errorLens.excludeBySource": [
+			"eslint",
+			"cSpell",
+		],
+		// WindiCSS IntelliSense Config
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"css.validate": false,
+		// Svelte Config
+		"svelte.plugin.css.diagnostics.enable": false,
+		// File Nesting 
+		"explorer.experimental.fileNesting.enabled": true,
+		"explorer.experimental.fileNesting.expand": false,
+		"explorer.experimental.fileNesting.patterns": {
+			".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
+			"*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
+			"*.jsx": "$(capture).js",
+			"*.ts": "$(capture).js, $(capture).*.ts",
+			"*.tsx": "$(capture).ts",
+			"*.vue": "$(capture).*.ts, $(capture).*.js",
+			"index.d.ts": "*.d.ts",
+			"shims.d.ts": "*.d.ts",
+			"*.cpp": "$(capture).hpp, $(capture).h, $(capture).hxx",
+			"*.cxx": "$(capture).hpp, $(capture).h, $(capture).hxx",
+			"*.cc": "$(capture).hpp, $(capture).h, $(capture).hxx",
+			"*.c": "$(capture).h",
+			"go.mod": ".air*, go.sum",
+			"default.nix": "shell.nix",
+			"flake.nix": "flake.lock",
+			"BUILD.bazel": "*.bzl, *.bazel, *.bazelrc, bazel.rc, .bazelignore, .bazelproject, WORKSPACE",
+			"CMakeLists.txt": "*.cmake, *.cmake.in, .cmake-format.yaml, CMakePresets.json",
+			".clang-tidy": ".clang-format",
+			".env": "*.env, .env.*, env.d.ts",
+			"dockerfile": ".dockerignore, dockerfile*",
+			"package.json": ".browserslist*, .circleci*, .codecov, .commitlint*, .editorconfig, .eslint*, .firebase*, .flowconfig, .github*, .gitlab*, .gitpod*, .huskyrc*, .jslint*, .lintstagedrc*, .markdownlint*, .mocha*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnp.*, .pnpm*, .prettier*, .releaserc*, .sentry*, .stackblitz*, .styleci*, .stylelint*, .tazerc*, .textlint*, .tool-versions, .travis*, .vscode*, .watchman*, .xo-config*, .yamllint*, .yarnrc*, api-extractor.json, appveyor*, ava.config.*, azure-pipelines*, bower.json, build.config.*, commitlint*, crowdin*, cypress.json, dangerfile*, dprint.json, firebase.json, grunt*, gulp*, jasmine.*, jenkins*, jest.config.*, jsconfig.*, karma*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, nx.*, package-lock.json, playwright.config.*, pm2.*, pnpm*, prettier*, pullapprove*, puppeteer.config.*, renovate*, rollup.config.*, stylelint*, tsconfig.*, tsdoc.*, tslint*, tsup.config.*, turbo*, typedoc*, vercel*, vetur.config.*, vitest.config.*, webpack.config.*, workspace.json, xo.config.*, yarn*",
+			"rush.json": ".browserslist*, .circleci*, .codecov, .commitlint*, .editorconfig, .eslint*, .firebase*, .flowconfig, .github*, .gitlab*, .gitpod*, .huskyrc*, .jslint*, .lintstagedrc*, .markdownlint*, .mocha*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnp.*, .pnpm*, .prettier*, .releaserc*, .sentry*, .stackblitz*, .styleci*, .stylelint*, .tazerc*, .textlint*, .tool-versions, .travis*, .vscode*, .watchman*, .xo-config*, .yamllint*, .yarnrc*, api-extractor.json, appveyor*, ava.config.*, azure-pipelines*, bower.json, build.config.*, commitlint*, crowdin*, cypress.json, dangerfile*, dprint.json, firebase.json, grunt*, gulp*, jasmine.*, jenkins*, jest.config.*, jsconfig.*, karma*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, nx.*, package-lock.json, playwright.config.*, pm2.*, pnpm*, prettier*, pullapprove*, puppeteer.config.*, renovate*, rollup.config.*, stylelint*, tsconfig.*, tsdoc.*, tslint*, tsup.config.*, turbo*, typedoc*, vercel*, vetur.config.*, vitest.config.*, webpack.config.*, workspace.json, xo.config.*, yarn*",
+			"readme.*": "authors, backers.md, changelog*, citation*, code_of_conduct.md, codeowners, contributing.md, contributors, copying, credits, governance.md, history.md, license*, maintainers, readme*, security.md, sponsors.md",
+			"cargo.toml": ".clippy.toml, .rustfmt.toml, cargo.lock, clippy.toml, cross.toml, rust-toolchain.toml, rustfmt.toml",
+			"gemfile": ".ruby-version, gemfile.lock",
+			"composer.json": "composer.lock, phpunit.xml*, psalm*.xml",
+			"vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, index.html, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+			"vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+			"nuxt.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+			"next.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, next-env.d.ts, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+			"svelte.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, mdsvex.config.js, playwright.config.*, postcss.config.*, puppeteer.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
+			"remix.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .htmlnanorc*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, cssnano.config.*, cypress.json, env.d.ts, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, playwright.config.*, postcss.config.*, puppeteer.config.*, remix.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
+		},
+		"workbench.iconTheme": "icons",
+		"search.showLineNumbers": true,
+		// Spell Checker Config
+		"cSpell.ignorePaths": [
+			"node_modules",        // this will ignore anything the node_modules directory
+			"**/node_modules",     // the same for this one
+			"**/node_modules/**",  // the same for this one
+			"node_modules/**",     // Doesn't currently work due to how the current working directory is determined.
+			"vscode-extension",    //
+			".git",                // Ignore the .git directory
+			".vscode",
+			".code-workspace",
+			"*.code-workspace",
+			"**/*.code-workspace",
+		],
+		"workbench.colorTheme": "Quiet Light",
+    "workbench.preferredLightColorTheme": "Quiet Light",
+	}
+}
