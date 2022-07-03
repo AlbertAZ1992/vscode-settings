@@ -25,6 +25,8 @@
 			"Svelte.SvelteForVscode",
 			"HardikPithva.WebComponentShippets",
 			"voorjaar.WindicssIntellisense",
+			"MihaiVilcu.PathAutocomplete",
+			"YuZhang.MarkdownAllinOne"
 		]
 	},
 	"settings": {
