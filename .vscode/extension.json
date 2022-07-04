@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "lokalise.i18n-ally",
     "StreetSideSoftware.CodeSpellChecker",
     "SergiiNaumov.ColorHighlight",
     "Alexander.ErrorLens",
@@ -11,7 +10,8 @@
     "MhammedTalhaouy.Icons",
     "Svelte.SvelteForVscode",
     "HardikPithva.WebComponentShippets",
-    "voorjaar.WindicssIntellisense",
-    "YuZhang.MarkdownAllinOne"
+    "YuZhang.MarkdownAllinOne",
+    "Microsoft.SublimeTextKeymapandSettingsImporter",
+    "MihaiVilcu.PathAutocomplete"
   ]
 }

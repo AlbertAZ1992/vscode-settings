@@ -13,7 +13,6 @@
 	],
 	"extensions": {
 		"recommendations": [
-			"lokalise.i18n-ally",
 			"StreetSideSoftware.CodeSpellChecker",
 			"SergiiNaumov.ColorHighlight",
 			"Alexander.ErrorLens",
@@ -24,9 +23,9 @@
 			"MhammedTalhaouy.Icons",
 			"Svelte.SvelteForVscode",
 			"HardikPithva.WebComponentShippets",
-			"voorjaar.WindicssIntellisense",
-			"MihaiVilcu.PathAutocomplete",
-			"YuZhang.MarkdownAllinOne"
+			"YuZhang.MarkdownAllinOne",
+			"Microsoft.SublimeTextKeymapandSettingsImporter",
+			"MihaiVilcu.PathAutocomplete"
 		]
 	},
 	"settings": {
@@ -93,11 +92,6 @@
 			"eslint",
 			"cSpell",
 		],
-		// WindiCSS IntelliSense Config
-		"editor.quickSuggestions": {
-			"strings": true
-		},
-		"css.validate": false,
 		// Svelte Config
 		"svelte.plugin.css.diagnostics.enable": false,
 		// File Nesting 

@@ -64,11 +64,6 @@
         "eslint",
         "cSpell",
     ],
-    // WindiCSS IntelliSense Config
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "css.validate": false,
     // Svelte Config
     "svelte.plugin.css.diagnostics.enable": false,
     // File Nesting 
