@@ -95,9 +95,9 @@
 		// Svelte Config
 		"svelte.plugin.css.diagnostics.enable": false,
 		// File Nesting 
-		"explorer.experimental.fileNesting.enabled": true,
-		"explorer.experimental.fileNesting.expand": false,
-		"explorer.experimental.fileNesting.patterns": {
+		"explorer.fileNesting.enabled": true,
+		"explorer.fileNesting.expand": false,
+		"explorer.fileNesting.patterns": {
 			".gitignore": ".gitattributes, .gitmodules, .gitmessage, .mailmap, .git-blame*",
 			"*.js": "$(capture).js.map, $(capture).min.js, $(capture).d.ts",
 			"*.jsx": "$(capture).js",
